@@ -1,0 +1,84 @@
+/* Common Styles */
+body {
+    margin: 0px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+/* Right column buttons */
+.nav-bar > .right-column > .btn-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-bar > .right-column > .btn-wrapper > .create > .all-btn {
+    margin: 10px;
+    background-color: rgb(57, 61, 66);
+    color: white;
+    font-size: 1.25em;
+    padding: 10px 20px;
+    border: 1px solid rgb(57, 61, 66);
+    border-radius: 4px;
+    outline: none;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.nav-bar > .right-column > .btn-wrapper > .log-in > .all-btn {
+    margin: 10px;
+    background-color: rgb(57, 61, 66);
+    color: white;
+    font-size: 1.25em;
+    padding: 10px 20px;
+    border: 1px solid rgb(57, 61, 66);
+    border-radius: 4px;
+    outline: none;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.nav-bar > .right-column > .btn-wrapper > .sign-up > .all-btn {
+    margin: 10px;
+    background-color: rgb(57, 61, 66);
+    color: white;
+    font-size: 1.25em;
+    padding: 10px 20px;
+    border: 1px solid rgb(57, 61, 66);
+    border-radius: 4px;
+    outline: none;
+    font-family: 'PT Sans', sans-serif;
+}
+
+/* Body buttons */
+.body > .main-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: -500px;
+    top: -40px;
+}
+
+.body > .main-button > .sign-up-free-btn > .sign-btn {
+    margin: 10px;
+    background-color: rgb(39, 204, 127);
+    color: black;
+    font-size: 1.5em;
+    padding: 10px 20px;
+    border: 1px solid rgb(39, 204, 127);
+    border-radius: 4px;
+    outline: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+}
+
+.body > .main-button > .learn-more-btn > .learn-btn {
+    margin: 10px;
+    background-color: black;
+    color: white;
+    font-size: 1.5em;
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 4px;
+    outline: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+}
