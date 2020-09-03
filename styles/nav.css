@@ -1,0 +1,96 @@
+/* Common Styles */
+body {
+    margin: 0px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+/* Common Nav styles */
+.nav-bar {
+    height: 100px;
+    background-color: black;
+    color: white;
+    /* Flexbox container */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 50px;
+}
+
+/* Right Column Styles */
+.nav-bar > .right-column {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Left Column Styles */
+.nav-bar > .left-column > .pages-wrapper > .pages {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 42px;
+    width: 300px;
+    font-weight: 900;
+    font-size: 18px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.nav-bar > .left-column > .pages-wrapper > .pages {
+    display: flex;
+    align-items: center;
+}
+
+.nav-bar > .left-column > .pages-wrapper > .explore {
+    color: gold;
+    font-size: 18px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.nav-bar > .left-column > .pages-wrapper > .pages > .spark {
+    color: #6d6969;
+    font-size: 15px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.nav-bar > .left-column > .pages-wrapper {
+    position: relative;
+    right: 200px;
+}
+
+
+/* Icon Styles */
+.nav-bar > .right-column > .btn-wrapper > .create i{
+    width: 15px;
+    padding: 4px 4px;
+    color: rgb(108, 199, 108);
+    position: relative;
+    top: 2px;
+}
+
+.nav-bar > .right-column > .btn-wrapper > .src-icon i{
+    width: 20px;
+    padding: 4px 5px;
+    color: #6d6969;
+    font-size: 2em;
+    position: relative;
+    left: -5px;
+}
+
+.nav-bar > .left-column > .pages-wrapper > .pages > .sprk-icon i{
+    color: #6d6969;
+    position: relative;
+    right: 25px;
+    top: -1px;
+    font-size: 0.75em;
+}
+
+/* Logo Styles */
+.nav-bar > .logo-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-bar > .logo-wrapper img{
+    width: 200px;
+    height: 50%;
+}
